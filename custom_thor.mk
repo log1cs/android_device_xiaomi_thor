@@ -7,10 +7,10 @@
 # Inherit from thor device
 $(call inherit-product, device/xiaomi/thor/device.mk)
 
-# Inherit from common lineage configuration
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit from common PixelOS configuration
+$(call inherit-product, vendor/custom/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_thor
+PRODUCT_NAME := custom_thor
 PRODUCT_DEVICE := thor
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Xiaomi

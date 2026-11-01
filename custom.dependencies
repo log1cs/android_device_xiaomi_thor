@@ -1,0 +1,20 @@
+[
+  {
+    "repository": "PixelOS-Devices/android_device_xiaomi_sm8450-common",
+    "target_path": "device/xiaomi/sm8450-common"
+  },
+  {
+    "repository": "PixelOS-Devices/android_device_xiaomi_miuicamera-thor",
+    "target_path": "device/xiaomi/miuicamera-thor"
+  },
+  {
+    "remote": "gitlab",
+    "repository": "NoPrincessHere/proprietary_vendor_xiaomi_thor",
+    "target_path": "vendor/xiaomi/thor"
+  },
+  {
+    "remote": "gitlab",
+    "repository": "NoPrincessHere/proprietary_vendor_xiaomi_miuicamera-thor",
+    "target_path": "vendor/xiaomi/miuicamera-thor"
+  }
+]

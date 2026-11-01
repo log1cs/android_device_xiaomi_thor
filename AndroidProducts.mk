@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_thor.mk
+    $(LOCAL_DIR)/custom_thor.mk
