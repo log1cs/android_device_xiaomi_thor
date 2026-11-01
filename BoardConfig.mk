@@ -10,6 +10,9 @@ VENDOR_SECURITY_PATCH := 2026-02-01
 # Inherit from xiaomi sm8450-common
 include device/xiaomi/sm8450-common/BoardConfigCommon.mk
 
+# Inherit MiuiCamera
+include device/xiaomi/miuicamera-thor/BoardConfig.mk
+
 # Inherit from the proprietary version
 include vendor/xiaomi/thor/BoardConfigVendor.mk
 

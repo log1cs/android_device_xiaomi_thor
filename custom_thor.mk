@@ -7,6 +7,9 @@
 # Inherit from thor device
 $(call inherit-product, device/xiaomi/thor/device.mk)
 
+# MiuiCamera
+$(call inherit-product, device/xiaomi/miuicamera-thor/device.mk)
+
 # Inherit from common PixelOS configuration
 $(call inherit-product, vendor/custom/config/common_full_phone.mk)
 
